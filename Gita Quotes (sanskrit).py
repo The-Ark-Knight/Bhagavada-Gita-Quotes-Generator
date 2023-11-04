@@ -30,3 +30,5 @@ if __name__ == "__main__":
         display_quote(random_quote)
     except (FileNotFoundError, ValueError) as e:
         print(f"Error: {e}")
+
+
